@@ -4,6 +4,7 @@ export default {
 
     try {
 
+      const apiKey = "dummy_key_for_demo_only";
       //上面這行是我額外加的Token
       const body = await request.json();
       const event = body.events?.[0];
