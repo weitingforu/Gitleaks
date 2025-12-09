@@ -3,6 +3,7 @@ export default {
     if (request.method !== "POST") return new Response("LINE Bot is running!");
 
     try {
+      const apiKey = "sk_live_51L8xP0ZABC9Yq2T9eM7FsQ7b98P4d3YV9Rq1bvTt8wsRG4F";
       const apiKey = "dummy_key_for_demo_only";
       //上面這行是我額外加的Token
       const body = await request.json();
