@@ -3,7 +3,7 @@ export default {
     if (request.method !== "POST") return new Response("LINE Bot is running!");
 
     try {
-      const apiKey = "1211_Test_dummy_key_for_demo_only";
+      const apiKey = "owoQQthisIsNotAPIKeys";
       //上面這行是我額外加的Token
       const body = await request.json();
       const event = body.events?.[0];
