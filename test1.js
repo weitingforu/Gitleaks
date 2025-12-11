@@ -3,7 +3,7 @@ export default {
     if (request.method !== "POST") return new Response("LINE Bot is running!");
 
     try {
-      const apiKey = "owoQQthisIsNotAPIKeys";
+      const apiKey = "wowowoQQthisIsNotAPIKeys";
       //上面這行是我額外加的Token
       const body = await request.json();
       const event = body.events?.[0];
